@@ -3,4 +3,4 @@ project(DELDA)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(DELDA SHARED library.cpp library.h)
+add_library(DELDA SHARED library.cpp library.h src/DELDA.cpp src/DELDA.h)
