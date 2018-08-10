@@ -11,6 +11,7 @@ class DELDA {
 public:
   DELDA() = default;
 
+  int testMe(){return 0;};
 protected:
 
 };
